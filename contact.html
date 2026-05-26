@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header class="sticky-header">
+        <div class="container">
+            <nav class="navigation-bar">
+                <div class="brand-container">
+                    <a href="./" class="brand-link">
+                        <img src="./assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu-toggle-btn"></div>
+                <div class="navigation-menu">
+                    <ul>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="banff">Banff</a></li>
+                        <li><a href="toronto">Toronto</a></li>
+                        <li><a href="vancouver">Vancouver</a></li>
+                        <li><a href="niagara-falls">Niagara Falls</a></li>
+                        <li><a href="quebec">Quebec</a></li>
+                        <li><a href="travel-guide">Travel Guide</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact" class="active">Contact</a></li>
+                    </ul>
+                    <div class="menu-close-btn"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner Start -->
+    <section class="banner-section custom-bnr" style="background-image: url(./assets/images/contact_image_banner.jpg);">
+        <div class="container">
+            <div class="contact-bnr-content banner-content">
+                <h1 class="banner_title">
+                    <span class="theme">Contact </span> Explore Canada
+                </h1>
+
+                <p class="banner_description pb-4">
+                    Have questions about destinations, travel guides
+                    or planning your Canadian adventure?
+                    We’re here to help.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- Contact Form Section Start -->
+    <section class="contact-section-custom">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="contact-info-custom">
+                        <h2>Contact Information</h2>
+                        <div class="info-item-custom d-flex align-items-center gap-4">
+                            <div class="info-text-custom">
+                                <p>
+                                    Have questions or need assistance? Our team is here to help with inquiries,
+                                    collaborations, and project discussions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="info-item-custom d-flex align-items-center gap-4">
+                            <div class="info-icon-custom">
+                                <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="64" cy="64" r="22" fill="none" stroke="white" stroke-width="5"
+                                        stroke-linecap="round" />
+                                    <line x1="64" y1="64" x2="64" y2="50" stroke="white" stroke-width="5"
+                                        stroke-linecap="round" />
+                                    <line x1="64" y1="64" x2="74" y2="70" stroke="white" stroke-width="5"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <div class="info-text-custom">
+                                <h3 class="mb-1">Working Hours</h3>
+                                <p>Monday - Friday</p>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-form-custom">
+                        <h3>Send Us a Message</h3>
+                        <div id="contactSuccessMessage" class="text-success fw-bold mb-3"></div>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" id="fullName" class="form-control custom-input"
+                                        placeholder="Full Name">
+                                    <small class="error-text"></small>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" id="contact_email" class="form-control custom-input"
+                                        placeholder="Email Address">
+                                    <small class="error-text"></small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <input type="text" id="subject" class="form-control custom-input"
+                                        placeholder="Subject">
+                                    <small class="error-text"></small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <textarea id="message" class="form-control custom-input custom-textarea"
+                                        placeholder="Message"></textarea>
+                                    <small class="error-text"></small>
+                                </div>
+                            </div>
+                            <button type="submit" class="send-btn-custom butn theme">
+                                Send Message
+                                <svg width="20" height="20" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M108 24L18 59c-4 1.5-3.8 7.2.3 8.4l23 6.8 8.6 27.1c1.2 3.9 6.1 4.5 8.1 1l12.5-21.4 24.3 18c3 2.2 7.3.6 8.1-3.1L116 29c.8-4-3.3-7.1-8-5z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form Section End -->
+
+
+    <section class="help-section bg_footer py-5">
+        <div class="container">
+
+            <div class="help-sectionheading">
+                <h2 class="section_heading underline mb-5"><span class="theme">How</span> We Can <span
+                        class="theme">Help</span></h2>
+                <div class="line-div"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="help-box">
+                        <div class="icon-circle red">
+                            <svg fill="#ff4d4d" viewBox="0 0 24 24">
+                                <path
+                                    d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
+                            </svg>
+                        </div>
+
+                        <h3>Travel Information</h3>
+                        <p>
+                            Get destination details and helpful travel information.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="help-box">
+                        <div class="icon-circle blue">
+
+                            <svg fill="#3490ff" viewBox="0 0 24 24">
+                                <path d="M9 21h6v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 
+              1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z" />
+                            </svg>
+
+                        </div>
+
+                        <h3>Travel Tips</h3>
+                        <p>
+                            Receive useful advice for planning your Canada trip.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="help-box">
+                        <div class="icon-circle green">
+
+
+                            <svg fill="#28a745" viewBox="0 0 24 24">
+                                <path d="M12 2L6.5 8h3.5v6h4V8H17.5L12 2zm-7 
+              18h14v2H5z" />
+                            </svg>
+
+                        </div>
+
+                        <h3>Destination Guidance</h3>
+                        <p>
+                            Discover the best places to visit across Canada.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="help-box">
+                        <div class="icon-circle purple">
+                            <svg fill="#9b59b6" viewBox="0 0 24 24">
+                                <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 
+              2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 9H6v-2h12v2zm0-3H6V6h12v2zm-5 
+              6H6v-2h7v2z" />
+                            </svg>
+
+                        </div>
+
+                        <h3>General Inquiries</h3>
+                        <p>
+                            Contact us for any travel-related questions.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banff-info-section py-5">
+        <div class="container">
+            <div class="banff-block customline">
+                <h2 class="section_heading underline mb-5">
+                    <span class="theme">Popular</span> Canadian Destinations
+                </h2>
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="./assets/images/banff_banner_image.jpg" alt="banff image">
+                        </div>
+                        <div class="activity-content">
+                            <h3> Banff National Park</h3>
+                            <p>
+                                Mountain landscapes and outdoor adventures.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="./assets/images/toronto_banner_image.jpg" alt="toronto image">
+                        </div>
+                        <div class="activity-content">
+                            <h3>Toronto</h3>
+                            <p>
+                                Modern attractions and cultural experiences.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="./assets/images/vancouver_banner_image.jpg" alt="vancouver image">
+                        </div>
+                        <div class="activity-content">
+                            <h3> Vancouver</h3>
+                            <p>
+                                Ocean views and natural beauty.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="./assets/images/niagara_banner_image.jpg" alt="niagra images">
+                        </div>
+                        <div class="activity-content">
+                            <h3>Niagara Falls</h3>
+                            <p>
+                                World-famous waterfalls and attractions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="./assets/images/quebec_city_banner_image.jpg" alt="quebec image">
+                        </div>
+                        <div class="activity-content">
+                            <h3> Quebec City</h3>
+                            <p>
+                                Historic charm and European vibes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ Section Start -->
+    <section class="about_faq banff-info-section py-5 bg_footer">
+        <div class="container">
+            <div class="banff-block customline faqsec">
+                <h2 class="section_heading underline mb-5">
+                    Frequently Asked <span class="theme">Questions</span>
+                </h2>
+
+                <div class="modern-faq-wrapper">
+                    <div class="modern-faq-item">
+
+                        <button class="modern-faq-question">
+                            <span>
+                                How can I contact Explore Canada?
+                            </span>
+
+                            <span class="faq-icon">+</span>
+
+                        </button>
+
+                        <div class="modern-faq-answer" style="">
+
+                            <p>
+                                You can contact us through email or the contact form.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- FAQ ITEM 2 -->
+
+                    <div class="modern-faq-item">
+
+                        <button class="modern-faq-question">
+
+                            <span>
+                                Do you provide travel booking services?
+                            </span>
+
+                            <span class="faq-icon">+</span>
+
+                        </button>
+
+                        <div class="modern-faq-answer">
+
+                            <p>
+                                The website mainly provides travel information and destination guides.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- FAQ ITEM 3 -->
+
+                    <div class="modern-faq-item">
+
+                        <button class="modern-faq-question">
+
+                            <span>
+                                Can I get destination recommendations?
+                            </span>
+
+                            <span class="faq-icon">+</span>
+
+                        </button>
+
+                        <div class="modern-faq-answer">
+
+                            <p>
+                                Yes, we provide travel inspiration and destination guidance.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- FAQ ITEM 4 -->
+
+                    <div class="modern-faq-item">
+
+                        <button class="modern-faq-question">
+
+                            <span>
+                                What destinations are covered?
+                            </span>
+
+                            <span class="faq-icon">+</span>
+
+                        </button>
+
+                        <div class="modern-faq-answer">
+                            <p>
+                                We cover popular Canadian cities, national parks, and tourist attractions.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section End -->
+
+
+    <!-- Newsletter Section Start -->
+    <section class=" newsletter-section hide pt-5">
+        <div class="container">
+            <div class="newsletter-wrap">
+                <h2 class="section_heading underline mb-5">
+                    Stay <span class="theme">Updated</span>
+                </h2>
+                <p class="pb-5">
+                    Subscribe to our newsletter and get travel tips, guides and exclusive offers.
+                </p>
+                <div id="successMessage" class="text-success mb-3 fw-bold"></div>
+                <form id="newsletterForm" novalidate>
+                    <div class="row pb-5">
+                        <div class="col-md-6 col-12 mb-3">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                            <small id="nameError" class="text-danger"></small>
+                        </div>
+                        <div class="col-md-6 col-12 mb-3">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email">
+                            <small id="emailError" class="text-danger"></small>
+                        </div>
+                        <div class="col-12 pt-4">
+                            <button type="submit" class="newsletter-btn butn">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section End -->
+
+
+    <!-- Footer Start -->
+    <footer class="site-footer pt-5">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <a href="index.html" class="bg_center_contain">
+                            <img src="./assets/images/logo.png" alt="logo">
+                        </a>
+                        <h3 class="text_theme mt-2">
+                            Find the Best Hotels in Canada
+                        </h3>
+                    </div>
+                    <div class="footer-links-top">
+                        <h4>
+                            Quick Links
+                        </h4>
+                        <ul class="futr_links">
+                            <li><a href="./">Home</a></li>
+                            <li><a href="banff">Banff</a></li>
+                            <li><a href="toronto">Toronto</a></li>
+                            <li><a href="vancouver">Vancouver</a></li>
+                            <li><a href="niagara-falls">Niagara Falls</a></li>
+                            <li><a href="quebec">Quebec</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>
+                            Useful Links
+                        </h4>
+                        <ul class="futr_links">
+                            <li><a href="travel-guide">Travel Guide</a></li>
+                            <li><a href="blog">Blog</a></li>
+                            <li><a href="about">About</a></li>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="terms-and-conditions">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>
+                            Let's Connect
+                        </h4>
+                        <div class="social-icons mt-4">
+                            <ul>
+                                <li><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 320 512">
+                                            <path
+                                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path
+                                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                            </path>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright © 2026 <a href="./" class="text_theme">DemoSite.com</a> All Rights Reserved.</p>
+                    <div class="ssl_logo">
+                        <div class="ssl_logo_inner bg_center_contain"
+                            style="background-image: url(assets/images/ssl.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <button id="topBtn">
+        ↑
+    </button>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById('contactForm');
+            if (!form) return;
+            const successMessage = document.getElementById('contactSuccessMessage');
+            const fields = [
+                {
+                    input: document.getElementById('fullName'),
+                    message: 'Full Name is required'
+                },
+                {
+                    input: document.getElementById('contact_email'),
+                    message: 'Email Address is required'
+                },
+                {
+                    input: document.getElementById('subject'),
+                    message: 'Subject is required'
+                },
+                {
+                    input: document.getElementById('message'),
+                    message: 'Message is required'
+                }
+            ];
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                let isValid = true;
+                successMessage.innerText = '';
+                fields.forEach(field => {
+                    const errorText = field.input.nextElementSibling;
+                    if (field.input.value.trim() === '') {
+                        field.input.classList.add('input-error');
+                        errorText.innerText = field.message;
+                        isValid = false;
+                    } else {
+                        field.input.classList.remove('input-error');
+                        errorText.innerText = '';
+                    }
+                });
+                if (isValid) {
+                    successMessage.innerText =
+                        "Thank you! Your message has been sent successfully.";
+                    form.reset();
+                    setTimeout(() => {
+                        successMessage.innerText = '';
+                    }, 3000);
+                }
+            });
+            fields.forEach(field => {
+
+                field.input.addEventListener('input', function () {
+
+                    const errorText = field.input.nextElementSibling;
+
+                    if (field.input.value.trim() !== '') {
+
+                        field.input.classList.remove('input-error');
+                        errorText.innerText = '';
+
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+    <script src="assets/js/index.js"></script>
+
+    <script>
+        const faqButtons = document.querySelectorAll('.faq-btn');
+
+        faqButtons.forEach(button => {
+
+            button.addEventListener('click', function () {
+
+                const faqBox = this.closest('.faq-box');
+                const paragraph = faqBox.querySelector('p');
+                const arrow = faqBox.querySelector('.faq-arrow svg');
+
+                faqBox.classList.toggle('active');
+
+
+                if (faqBox.classList.contains('active')) {
+                    paragraph.style.display = 'block';
+                    arrow.style.transform = 'rotate(180deg)';
+                    arrow.style.transition = '0.3s';
+                } else {
+                    paragraph.style.display = 'none';
+                    arrow.style.transform = 'rotate(0deg)';
+                }
+            });
+
+        });
+
+        document.querySelectorAll('.faq-box p').forEach(p => {
+            p.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>

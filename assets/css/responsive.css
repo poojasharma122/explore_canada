@@ -1,0 +1,523 @@
+@media screen and (max-width:1599px) {
+    .blog_card_title h3 {
+        font-size: 1.2rem;
+    }
+    .butn {
+        font-size: 1rem;
+    }
+    .banff-info-section .modern-faq-question {
+        min-height: 130px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .banff-info-section .modern-faq-question {
+        min-height: 160px;
+    }
+}
+
+
+@media screen and (max-width:1199px) {
+    html {
+        font-size: 15px;
+    }
+    .navigation-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 3.33rem;
+        background-color: #102b2a;
+        transform: translateX(100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .navigation-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .navigation-menu ul {
+        flex-direction: column;
+
+    }
+
+    .menu-toggle-btn {
+        display: block;
+    }
+
+    .menu-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        text-align: end;
+        z-index: 55;
+        font-size: 1.25rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .banff-info-section .activity-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banff-info-section .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banff-info-section .faq-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .travel-content_abt .section_heading {
+        font-size: 2rem;
+    }
+    .banff-info-section .modern-faq-question {
+        min-height: 150px;
+    }
+    .banff-info-section .modern-faq-question span:first-child {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .footer-links,
+    .footer-contact {
+        padding-left: 2.75rem;
+    }
+
+    .footer-top h3 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+    .travel-content_abt {
+        padding:0;
+
+    }
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+    .travel_right h3 {
+        text-align: left !important;
+    }
+    .travel-container {
+        grid-template-columns: 1fr;
+        gap: 0.9375rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer-logo a {
+        width: 13.625rem;
+    }
+
+    .footer-links,
+    .footer-contact {
+        padding-left: 1.75rem;
+    }
+
+    .footer-top h4 {
+        font-size: 1.6rem;
+    }
+
+    .home_featured_img_outer {
+        height: 23rem;
+    }
+
+    .banff-info-section .middle-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .banff-info-section .modern-faq-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .transform-section {
+        padding: 5rem 0;
+    }
+
+
+    .transform-section .service-card {
+        width: calc(50% - 12px);
+    }
+
+
+
+    .travel-content {
+        text-align: center;
+    }
+
+    .travel-content p {
+        margin: 0 auto 1.875rem;
+    }
+    .banner_title {
+        font-size: 3rem;
+    }
+    .banner_subtitle {
+        font-size: 2.5rem;
+    }
+    .home_explore_content h3 {
+        font-size: 1.5rem;
+    }
+    .section_heading {
+        font-size: 2.5rem;
+    }
+    .highlighted_txt {
+        font-size: 1.1rem;
+    }
+    .blog_card_title h3 {
+        min-height: 1.25rem;
+    }
+    .transform-section .card-content {
+        text-align: left;
+    }
+    .home_why_us_content h3
+     {
+        font-size: 1.6rem;
+    }
+    .banff-info-section .modern-faq-question {
+        min-height: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "logo"
+            "links"
+            "contact";
+    }
+
+    .footer-logo {
+
+        text-align: left;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1.25rem;
+        text-align: center;
+    }
+
+    .banner-section {
+        text-align: center;
+        padding: 5.33rem 0;
+    }
+
+    .banner-title {
+        font-size: 2.6rem;
+    }
+
+    .banner-subtitle {
+        font-size: 1rem;
+        margin: auto auto 1.875rem;
+    }
+
+    .banner-buttons {
+        justify-content: center;
+    }
+
+    .home_featured_img_outer {
+        height: 20rem;
+    }
+
+    .footer-links,
+    .footer-links-top,
+    .footer-contact {
+        border-left: none;
+    }
+
+    .footer-links,
+    .footer-links-top {
+        border-bottom: 1px solid rgba(192 147 66/50%);
+        ;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .footer-logo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .footer-links-top {
+        grid-column: 1 / 2;
+    }
+
+    .footer-links {
+        grid-column: 2 / 3;
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .footer-contact {
+        grid-column: 1 / -1;
+        border-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .social-icons ul {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .banff-info-section {
+        padding: 70px 20px;
+    }
+
+    .banff-info-section .section-heading h2 {
+        font-size: 2.1333rem;
+    }
+
+    .banff-info-section .activity-grid,
+    .banff-info-section .photo-grid,
+    .banff-info-section .faq-grid,
+    .banff-info-section .season-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banff-info-section .tips-wrapper {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    .banff-info-section .tips-image {
+        width: 100%;
+    }
+
+    .faqsec {
+        padding-top: 2.66rem;
+    }
+
+
+
+    .transform-section {
+        padding: 4.66rem 0 0;
+    }
+
+    .transform-section .transform-top {
+        margin-bottom: 3.33rem;
+    }
+
+
+    .transform-section .transform-top p {
+        font-size: 0.9375rem;
+    }
+
+    .transform-section .service-card {
+        width: 45%;
+        max-width: 100%;
+        border-radius: 0.5rem 0.5rem 5rem 0.5rem;
+    }
+
+    .transform-section .card-image {
+        height: 14.66rem;
+    }
+
+    .banff-info-section .container {
+        padding: 0;
+    }
+
+    .banner-section.custom-bnr {
+        height: 35.25rem;
+    }
+
+    .travel-hero {
+        padding: 5rem 0;
+    }
+    .about_cards_text h2 {
+        font-size: 1.6rem;
+    }
+    .banff-info-section .modern-faq-question span:first-child {
+        font-size: 1rem;
+    }
+    .blog_page .blog_card_title h3 {
+        min-height: 0;
+    }
+    .blog_card_content p {
+        min-height: 5rem;
+    }
+    .banff-info-section .modern-faq-question {
+        min-height: 80px;
+    }
+}
+
+
+
+
+@media screen and (max-width:575px) {
+    .travel-content_abt {
+        padding: 5px;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+        width: 12.75rem;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-logo,
+    .footer-links-top,
+    .footer-links,
+    .footer-contact {
+        grid-column: auto;
+        width: 100%;
+        text-align: left;
+        padding-left: 0.625rem;
+    }
+
+
+    .footer-contact {
+        text-align: left;
+    }
+
+    .social-icons ul {
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .season-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .travel-content h2 {
+        font-size: 2rem;
+    }
+    .travel-content_abt h1 {
+        font-size: 2rem;
+    }
+    .banner_title {
+        font-size: 2.5rem;
+    }
+    .banner_subtitle {
+        font-size: 2rem;
+    }
+    .banner-section {
+        height: 70vh;
+    }
+    .section_heading {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    .highlighted_txt {
+        font-size: 1rem;
+    }
+    .mb-5 {
+        margin-bottom: 2.5rem!important;
+    }
+    .blog_card_title h3 {
+        min-height: 0;
+    }
+    .blog_card_title h3 {
+        font-size: 1.5rem;
+        min-height: 0;
+    }
+    .newsletter-wrap p {
+        font-size: 1rem;
+    }
+    .featured_card {
+        padding: 1.25rem;
+    }
+    .banner-section.custom-bnr .banner_title {
+        font-size: 2.2rem;
+    }
+    .transform-section {
+        padding: 3.66rem 0 0;
+    }
+    .transform-section .transform-top {
+        text-align: left;
+    }
+    .transform-section .transform-cards {
+        padding: 0;
+    }
+    .transform-section .service-card {
+        width: 100%;
+    }
+    .banner-section.custom-bnr .banner-content {
+        margin-top: 5rem;
+    }
+    .banff-info-section .activity-grid,
+    .banff-info-section .photo-grid,
+    .banff-info-section .faq-grid,
+    .banff-info-section .season-grid {
+        grid-template-columns: 1fr;
+    }
+    .banff-info-section .modern-faq-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .ssl_logo {
+        width: 7.75rem;
+    }
+    .travel-content_abt p {
+        margin-bottom: 0;
+    }
+    .blog_image_txt h1 {
+        font-size: 1.4rem;
+    }
+    .about_cards {
+        padding: 1.25rem;
+    }
+    .banff-info-section .modern-faq-question {
+        padding: 1rem 1rem;
+    }
+    .banff-info-section .modern-faq-question span:first-child {
+        font-size: 1.2rem;
+    }
+    .blog_desc_grps h3 , .blog_desc_grps h2{
+        font-size: 1.4rem;
+    }
+    .blog_card_content p {
+        min-height: 0;
+    }
+    .banff-info-section .modern-faq-question {
+        min-height: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .butn {
+        padding: 0.625rem 1.25rem;
+        line-height: 1.4;
+    }
+    .footer-links li a, .footer-links-top li a, .footer-contact li a, .footer-contact li .align-end {
+        font-size: 1rem;
+    }
+    .about_cards_text p {
+        font-size: 1rem;
+    }
+
+}
